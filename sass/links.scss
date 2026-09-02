@@ -1,20 +1,22 @@
 a {
   &:link {
     color: inherit;
-    text-decoration: underline #0D9;
+    text-decoration: underline #0d9;
   }
 
   &:visited {
     color: inherit;
-    text-decoration: underline #0D9;
+    text-decoration: underline #0d9;
   }
 
   &:hover,
   &:focus {
     outline: 0;
     color: inherit;
-    background-color: #0D9;
+    background-color: #0d9;
   }
 
-  &:active { color: #ccc; }
+  &:active {
+    color: #ccc;
+  }
 }
